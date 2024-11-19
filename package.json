@@ -1,0 +1,30 @@
+{
+  "name": "@zaikoxander/react-repeat-render",
+  "version": "1.0.0",
+  "description": "A simple React component that helps you render components multiple times using a render prop pattern.",
+  "main": "dist/Repeat.js",
+  "scripts": {
+    "build": "tsc && babel src --out-dir dist --extensions \".ts,.tsx\""
+  },
+  "keywords": ["react", "repeat", "render", "component", "helper"],
+  "author": "ZaikoXander",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.25.9",
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.25.9",
+    "@babel/preset-typescript": "^7.26.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "typescript": "^5.6.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ZaikoXander/react-repeat-render.git"
+  }
+}
